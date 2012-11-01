@@ -1,0 +1,88 @@
+/*-[ Calender Widget ]-------------------------*/
+#wp-calendar {
+	width: 300px;
+}
+#wp-calendar td {
+	text-align: center;
+}
+#wp-calendar caption {
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#wp-calendar #prev {
+	text-align: left;
+	padding-left: 12px;
+}
+
+#wp_page_numbers ul,#wp_page_numbers li,#wp_page_numbers a
+{ background:transparent;
+  border:none;
+  text-decoration:none;
+  list-style:none;
+  text-transform:none;
+  text-indent:0;
+  text-align:left;
+  letter-spacing:0;
+  word-spacing:0;
+  font:normal normal normal 18px/15px "Book Antiqua",Verdana; }
+
+#wp_page_numbers
+{ margin-top:5px;
+  width:100%;
+  background:none;
+  margin-bottom:4px; }
+
+#wp_page_numbers ul
+{ width:100%; }
+
+#wp_page_numbers li
+{ float:left;
+  display:block;
+  margin-bottom:2px; }
+
+#wp_page_numbers a
+{ background:#dbe7f0;
+  padding:4px;
+  padding-left:7px;
+  padding-right:7px;
+  margin-left:3px;
+  margin-right:3px;
+  display:block;
+
+  border:1px solid #949191;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+#wp_page_numbers li>a:hover
+{ border:1px solid #002cba;
+  background:#D1D1D1;
+  border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+}
+#wp_page_numbers li.active_page> a
+{ border-color:#0075b8;
+  background:#B2BBC1;
+  font-weight:bold;
+  text-decoration:underline; }
+
+#wp_page_numbers li.page_info
+{ background:#dbe7f0;
+  float:left;
+  display:block;
+  padding:4px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-right:3px;
+  font-size:13px;
+  letter-spacing:1px;
+  border:1px solid #777272;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow:2px 2px 2px #b3b3b7;
+  -moz-box-shadow:2px 2px 2px #b3b3b7;
+  -webkit-box-shadow:2px 2px 2px #b3b3b7; }

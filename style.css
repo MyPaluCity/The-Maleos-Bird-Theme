@@ -1,0 +1,208 @@
+/*
+Theme Name: The Maleo
+Theme URI: http://wordpress.org/
+Description: Using 960.gs grid system and is licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+Author: Fuad Alma Adam
+Author URI: http://profiles.wordpress.org/bigalma-1
+Version: 1.5
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+
+License:
+License URI:
+*/
+@import url('css/orange.css');
+@import url('css/grid.css');
+@import url('css/modal.css');
+@import url('css/menu.css');
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+display : block;
+}
+html {
+font-size : 100%;
+overflow-y : scroll;
+}
+body {
+background:url('images/bg.png') repeat #cfe1ed;
+margin : 0;
+font-size : 13px;
+line-height : 1.231;
+}
+body, button, input, select, textarea {
+font-family : sans-serif;
+color : #222;
+}
+abbr[title] {
+border-bottom : 1px dotted;
+}
+b, strong {
+font-weight : bold;
+}
+blockquote {
+width : 50%;
+color : #000;
+background : url('images/blockquotes-1.png') 1.6em 1.4em no-repeat #fff;
+margin-left : auto;
+margin-right : auto;
+padding : 1.6em 1.6em 0.2em 9em;
+border : #111 solid 1px;
+}
+dfn {
+font-style : italic;
+}
+hr {
+display : block;
+height : 1px;
+border : 0;
+border-top : 1px solid #ccc;
+margin : 1em 0;
+padding : 0;
+}
+ins {
+background : #ff9;
+color : #000;
+text-decoration : none;
+}
+mark {
+background : #ff0;
+color : #000;
+font-style : italic;
+font-weight : bold;
+}
+pre, code, kbd, samp {
+font-family : monospace, monospace;
+font-size : 1em;
+}
+pre {
+white-space : pre;
+white-space : pre-wrap;
+overflow-wrap : break-word;
+}
+q {
+quotes : none;
+}
+q:before, q:after {
+content : "";
+content : none;
+}
+small {
+font-size : 85%;
+}
+sub, sup {
+font-size : 75%;
+line-height : 0;
+position : relative;
+vertical-align : baseline;
+}
+sup {
+top : -0.5em;
+}
+sub {
+bottom : -0.25em;
+}
+ol {
+list-style : none;
+}
+ul, ol {
+margin : 1em 0;
+padding : 0 0 0 40px;
+}
+dd {
+margin : 0 0 0 40px;
+}
+nav ul, nav ol {
+list-style : none;
+margin : 0;
+padding : 0;
+}
+#breadcrumbs {
+margin : 0 0 0 10px;
+padding : 0;
+font-size : 10px;
+}
+img {
+border : 0;
+}
+
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
